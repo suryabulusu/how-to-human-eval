@@ -1,0 +1,14 @@
+index,orig_image,ours,bpg,hific,dataset,bpp
+0,CelebA_Original_10039.png,CelebA_Ours_Baseline_bpp-0.15_10039.png,CelebA_BPG_reconstructions_q37_10039.png,CelebA_HiFiC_Low-0.15bpp_10039_RECON_0.221bpp.png,CelebA,low
+1,CelebA_Original_10165.png,CelebA_Ours_Baseline_bpp-0.15_10165.png,CelebA_BPG_reconstructions_q37_10165.png,CelebA_HiFiC_Low-0.15bpp_10165_RECON_0.194bpp.png,CelebA,low
+2,CelebA_Original_10196.png,CelebA_Ours_Baseline_bpp-0.15_10196.png,CelebA_BPG_reconstructions_q37_10196.png,CelebA_HiFiC_Low-0.15bpp_10196_RECON_0.184bpp.png,CelebA,low
+3,CelebA_Original_10107.png,CelebA_Ours_Baseline_bpp-0.15_10107.png,CelebA_BPG_reconstructions_q37_10107.png,CelebA_HiFiC_Low-0.15bpp_10107_RECON_0.207bpp.png,CelebA,low
+4,CelebA_Original_10008.png,CelebA_Ours_Baseline_bpp-0.15_10008.png,CelebA_BPG_reconstructions_q37_10008.png,CelebA_HiFiC_Low-0.15bpp_10008_RECON_0.195bpp.png,CelebA,low
+5,CelebA_Original_10035.png,CelebA_Ours_Baseline_bpp-0.15_10035.png,CelebA_BPG_reconstructions_q37_10035.png,CelebA_HiFiC_Low-0.15bpp_10035_RECON_0.182bpp.png,CelebA,low
+6,CelebA_Original_10116.png,CelebA_Ours_Baseline_bpp-0.15_10116.png,CelebA_BPG_reconstructions_q37_10116.png,CelebA_HiFiC_Low-0.15bpp_10116_RECON_0.188bpp.png,CelebA,low
+7,CelebA_Original_10176.png,CelebA_Ours_Baseline_bpp-0.15_10176.png,CelebA_BPG_reconstructions_q37_10176.png,CelebA_HiFiC_Low-0.15bpp_10176_RECON_0.217bpp.png,CelebA,low
+8,CelebA_Original_10024.png,CelebA_Ours_Baseline_bpp-0.15_10024.png,CelebA_BPG_reconstructions_q37_10024.png,CelebA_HiFiC_Low-0.15bpp_10024_RECON_0.225bpp.png,CelebA,low
+9,CelebA_Original_10190.png,CelebA_Ours_Baseline_bpp-0.15_10190.png,CelebA_BPG_reconstructions_q37_10190.png,CelebA_HiFiC_Low-0.15bpp_10190_RECON_0.179bpp.png,CelebA,low
+0,CelebA_Original_10039.png,CelebA_Ours_Baseline_bpp-0.3_10039.png,CelebA_BPG_reconstructions_q43_10039.png,CelebA_HiFiC_Med-0.3bpp_10039_RECON_0.405bpp.png,CelebA,med
+1,CelebA_Original_10165.png,CelebA_Ours_Baseline_bpp-0.3_10165.png,CelebA_BPG_reconstructions_q43_10165.png,CelebA_HiFiC_Med-0.3bpp_10165_RECON_0.344bpp.png,CelebA,med
+2,CelebA_Original_10196.png,CelebA_Ours_Baseline_bpp-0.3_10196.png,CelebA_BPG_reconstructions_q43_10196.png,CelebA_HiFiC_Med-0.3bpp_10196_RECON_0.297bpp.png,CelebA,med
