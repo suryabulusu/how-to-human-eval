@@ -1,0 +1,90 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+    
+    <center>
+  <crowd-instructions link-text="View instructions" link-type="button">
+    <short-summary>
+      <p>You will be shown four images: An original image (left), and three reconstructed images (A, B, C).  <br/>
+      Your task is to look at the images carefully and answer the following questions.</p>
+    </short-summary>
+
+    <detailed-instructions>
+      <h3>Detailed instruction:</h3>
+      <p>
+        Compression and reconstruction is a standard workflow in image sharing online (for instance, on WhatsApp). Compressed versions of images are easier to transfer since they occupy less space, but at the loss of quality. When the compressed versions are reconstructed at the receiver's end, we obtain reconstructed images. <br/>
+        Images reconstructed from the compressed version of original image are shown. <br/>
+        Step 1: Look at the images carefully. Think of which reconstructed image matches well with the original image. <br/>
+        Step 2: Answer the following questions based on the images.<br/>
+        
+      </p>
+      
+      <positive-example>
+      <h3>Good Annotations:</h3>
+      <p>A good annotation would involve properly reading the instructions and then carefully answering the questions after putting thought into them.
+      To answer the questions, you just have to select the most suitable option among the available options.</p>
+    </positive-example>
+
+    <negative-example>
+      <h3>Bad Annotations:</h3>
+      <p>A bad annotation would involve not carefully looking at the images. This can lead to improper understanding of the contents in the image which can in turn lead to answering the questions incorrectly. Some of the questions are designed to identify bad annotations so that they can be removed
+      from the survey. </p>
+    </negative-example>
+
+    </detailed-instructions>
+  </crowd-instructions>
+  </center>
+  
+  
+    <div>
+        
+        <h2>Images</h2>
+        <div class="row" style = "display:flex;">
+          <div class="column" style = "flex: 25%; padding: 5px">
+              <p><image width="256" height="256" controls source src="${orig_url}"><br/>Original Image</p>
+          </div>
+          <div class="column" style = "flex: 25%; padding: 5px">
+              <p><image width="256" height="256" controls source src="${ours_url}"><br/>Image A</p>
+          </div>
+          <div class="column" style = "flex: 25%; padding: 5px">
+              <p><image width="256" height="256" controls source src="${bpg_url}"><br/>Image B</p>
+          </div>
+          <div class="column" style = "flex: 25%; padding: 5px">
+              <p><image width="256" height="256" controls source src="${hific_url}"><br/>Image C</p>
+          </div>
+        </div> 
+    
+    </div>
+
+    <br/><br/><br/>
+
+    <div class="btn-group-vertical btn-block" data-toggle="buttons" id="reconstruct">
+        <center>
+        <h2>Q1: Which of the three reconstructed images (A, B, C) are <u>closer</u> to the original image? (required)</h2>
+        <label class="btn btn-default"><input name="reconstruct" required="" type="radio" value="1" />Image A</label><br/>
+        <label class="btn btn-default"> <input name="reconstruct" required="" type="radio" value="2" />Image B</label><br/>
+        <label class="btn btn-default"> <input name="reconstruct" required="" type="radio" value="3" />Image C</label><br/>
+        <label class="btn btn-default"> <input name="reconstruct" required="" type="radio" value="4" />All look close!</label><br/>
+        </center>
+     </div><br/><hr/><br/>
+    
+    <center>
+        <div style="height:200px; width:700px;">
+            <h2>Please provide a feedback on this survey:</h2>
+            <crowd-input width = 400 height = 200 name="Feedback" placeholder="Feedback" required></crowd-input>
+        </div>
+    </center>
+    </div>
+
+    <center>
+       <h2>Thank You!</h2>
+    </center>
+   
+</crowd-form>
+
+

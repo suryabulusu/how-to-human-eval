@@ -1,0 +1,14 @@
+index,orig_image,equal,low,high,dataset,bpp,class
+3,CelebA_Original_678.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_678_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_678_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_678_4.png,CelebA,low,face
+4,CelebA_Original_458.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_458_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_458_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_458_4.png,CelebA,low,face
+5,CelebA_Original_584.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_584_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_584_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_584_4.png,CelebA,low,face
+8,CelebA_Original_726.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_726_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_726_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_726_4.png,CelebA,low,face
+9,CelebA_Original_564.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_564_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_564_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_564_4.png,CelebA,low,face
+12,CelebA_Original_524.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_524_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_524_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_524_4.png,CelebA,low,face
+13,CelebA_Original_542.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_542_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_542_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_542_4.png,CelebA,low,face
+17,CelebA_Original_632.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_632_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_632_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_632_4.png,CelebA,low,face
+19,CelebA_Original_563.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_563_2.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_low_563_0.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_563_4.png,CelebA,low,face
+0,CelebA_Original_256.png,CelebA_Ours_Varying_Imp_bpp-0.3_all_equal_256_2.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_low_256_0.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_high_256_4.png,CelebA,med,face
+1,CelebA_Original_229.png,CelebA_Ours_Varying_Imp_bpp-0.3_all_equal_229_2.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_low_229_0.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_high_229_4.png,CelebA,med,face
+2,CelebA_Original_265.png,CelebA_Ours_Varying_Imp_bpp-0.3_all_equal_265_2.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_low_265_0.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_high_265_4.png,CelebA,med,face
+7,CelebA_Original_258.png,CelebA_Ours_Varying_Imp_bpp-0.3_all_equal_258_2.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_low_258_0.png,CelebA_Ours_Varying_Imp_bpp-0.3_face_high_258_4.png,CelebA,med,face

@@ -1,0 +1,14 @@
+index,orig_image,ours,hific,dataset,bpp,per,class
+3,CelebA_Original_678.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_678_2.png,CelebA_HiFiC_Low-0.15bpp_678_RECON_0.206bpp.png,CelebA,low,equal,face
+4,CelebA_Original_458.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_458_2.png,CelebA_HiFiC_Low-0.15bpp_458_RECON_0.201bpp.png,CelebA,low,equal,face
+5,CelebA_Original_584.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_584_2.png,CelebA_HiFiC_Low-0.15bpp_584_RECON_0.171bpp.png,CelebA,low,equal,face
+8,CelebA_Original_726.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_726_2.png,CelebA_HiFiC_Low-0.15bpp_726_RECON_0.175bpp.png,CelebA,low,equal,face
+9,CelebA_Original_564.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_564_2.png,CelebA_HiFiC_Low-0.15bpp_564_RECON_0.178bpp.png,CelebA,low,equal,face
+12,CelebA_Original_524.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_524_2.png,CelebA_HiFiC_Low-0.15bpp_524_RECON_0.186bpp.png,CelebA,low,equal,face
+13,CelebA_Original_542.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_542_2.png,CelebA_HiFiC_Low-0.15bpp_542_RECON_0.196bpp.png,CelebA,low,equal,face
+17,CelebA_Original_632.png,CelebA_Ours_Varying_Imp_bpp-0.2_all_equal_632_2.png,CelebA_HiFiC_Low-0.15bpp_632_RECON_0.201bpp.png,CelebA,low,equal,face
+3,CelebA_Original_678.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_678_4.png,CelebA_HiFiC_Low-0.15bpp_678_RECON_0.206bpp.png,CelebA,low,high,face
+4,CelebA_Original_458.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_458_4.png,CelebA_HiFiC_Low-0.15bpp_458_RECON_0.201bpp.png,CelebA,low,high,face
+5,CelebA_Original_584.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_584_4.png,CelebA_HiFiC_Low-0.15bpp_584_RECON_0.171bpp.png,CelebA,low,high,face
+8,CelebA_Original_726.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_726_4.png,CelebA_HiFiC_Low-0.15bpp_726_RECON_0.175bpp.png,CelebA,low,high,face
+9,CelebA_Original_564.png,CelebA_Ours_Varying_Imp_bpp-0.2_face_high_564_4.png,CelebA_HiFiC_Low-0.15bpp_564_RECON_0.178bpp.png,CelebA,low,high,face
